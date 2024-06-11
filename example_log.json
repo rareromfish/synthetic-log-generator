@@ -1,0 +1,33 @@
+﻿{
+    "card": {
+
+    },
+    "human_card": {
+
+    },
+    "final_log": [
+        {
+            "from": "gpt",
+            "name": "waifu",
+            "value": "this is the first message in the role play, created by whoever wrote the bot"
+        },
+        {
+            "from": "human",
+            "name": "bluefish",
+            "value": "this is the first ai generated message, the \"human\" in the role play"
+        },
+        {
+            "from": "gpt-chat",
+            "name": "waifu",
+            "value": "the role play continues"
+        }
+    ],
+    "message_reject_array": [
+        [],
+        [{"message": "banned message", "reason": "regex"}, {"message": "banned message", "reason": "regex"}],
+        [{"message": "banned message", "reason": "ai_eval"}, {"message": "banned message", "reason": "human_eval", "note": "purple"}]
+    ],
+    "model": "Psyonic-Cetacean-Ultra-Quality-20B-Q3_K_L-imat",
+    "live_eval": false,
+    "live_eval_model": "llama-3-instruct-8b-q6k"
+}

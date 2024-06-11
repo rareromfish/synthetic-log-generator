@@ -1,0 +1,36 @@
+﻿{
+    "log_gen": {
+        "api_link": "http://127.0.0.1:5001/api/v1/generate",
+        "generation_settings": {
+            "temp": 1,
+            "min_p": 0.1
+        },
+        "max_total_samples": 10000,
+        "max_rerolls": 7,
+        "max_turns": 25
+    },
+    "impersonating_actions": ["added", "addressed", "admitted", "advised", "alleged", "announced", "articulated", "averred", "babbled", "blurted", "broadcasted", "chattered", "chimed in", "commented", "confided", "conversed", "conveyed", "declaimed", "disclosed", "exclaimed", "explained", "expressed", "felt", "gasped", "hesitates", "informed", "insisted", "interjected", "mentioned", "mumbled", "murmured", "muttered", "noted", "notified", "orated", "predicted", "pronounced", "recited", "related", "remarked", "replied", "reported", "responded", "retorted", "revealed", "said", "shouted", "spoke", "stated", "stutters", "suggested", "talked", "told", "uttered", "uttered", "vocalized", "voiced", "warned", "whispered", "yammered", "yelled", "says"],
+    "do_eval_messages": true,
+    "eval_message": {
+        "comment": "goal_response_amount is ignored if do_eval_messages is false",
+        "goal_response_amount": 3,
+        "api_link": "horde",
+        "generation_settings": {
+            "temp": 1,
+            "min_p": 0.1
+        },
+        "instruction": "please pick the best option from this list\n"
+    },
+    "horde": {
+        "horde_key": "0000000000",
+        "model_name": "uncensored_instruct"
+    },
+    "do_eval_finished_logs": false,
+    "eval_finished_logs": {
+        "generation_settings": {
+            "temp": 1,
+            "min_p": 0.1
+        },
+        "instruction": "please rank this chat log as either great, good, okay, bad, or terrible according to these definitions: (defs)\n"
+    }
+}
